@@ -12,7 +12,7 @@ history" rather than "looked good in a demo".
   fallback.
 - Generalizing engine-specific behavior behind explicit configuration (the
   `sushi` / `splash` / `omlx` gates listed in README *Known limitations*) is the highest-value
-  open work and already scoped: [#1](https://github.com/RickyHolland/pi-rcompact/issues/1).
+  open work and already scoped: [#1](https://github.com/sudo-holla/pi-rcompact/issues/1).
 - Documentation, examples, and clearer error/fallback reasons.
 - Test coverage for behavior that is currently only checked by one integration scenario.
 

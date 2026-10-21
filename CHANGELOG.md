@@ -14,7 +14,7 @@ traceable, and future releases are versioned from here.
 
 ### Added
 - **Configurable engine capabilities**
-  ([#1](https://github.com/RickyHolland/pi-rcompact/issues/1)). Behaviour that depends on what a
+  ([#1](https://github.com/sudo-holla/pi-rcompact/issues/1)). Behaviour that depends on what a
   serving engine supports — the reasoning-budget bound, focused-extraction instruction,
   prefill-capacity recovery, request-capture affinity, output-headroom guard and restarting-engine
   error classification — is now decided by a capability table instead of provider-id comparisons.

@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RickyHolland/pi-rcompact.git"
+    "url": "git+https://github.com/sudo-holla/pi-rcompact.git"
   },
   "bugs": {
-    "url": "https://github.com/RickyHolland/pi-rcompact/issues"
+    "url": "https://github.com/sudo-holla/pi-rcompact/issues"
   },
-  "homepage": "https://github.com/RickyHolland/pi-rcompact#readme",
+  "homepage": "https://github.com/sudo-holla/pi-rcompact#readme",
   "pi": {
     "extensions": [
       "./compaction.ts"
