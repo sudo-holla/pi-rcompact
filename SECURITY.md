@@ -79,7 +79,7 @@ Checked 2026-10-16, and the reason a pinned install is a reasonable thing to tru
 Please report privately rather than opening a public issue, especially if a proof of concept
 would demonstrate a redaction bypass or transcript exposure.
 
-- **Preferred:** use GitHub's [private vulnerability reporting](https://github.com/RickyHolland/pi-rcompact/security/advisories/new)
+- **Preferred:** use GitHub's [private vulnerability reporting](https://github.com/sudo-holla/pi-rcompact/security/advisories/new)
   on this repository — it is enabled, so the link opens a private advisory form. If that is
   unavailable to you, contact the maintainer through their GitHub profile.
 - Include: version or commit, Pi version, provider/model, the setting values involved, and

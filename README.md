@@ -1,6 +1,6 @@
 # pi-rcompact
 
-![CI](https://github.com/RickyHolland/pi-rcompact/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/sudo-holla/pi-rcompact/actions/workflows/ci.yml/badge.svg)
 
 Cache-aware context compaction for [Pi](https://pi.dev), the coding agent. It takes
 over Pi's manual `/compact` and its automatic threshold/overflow compaction, and asks
@@ -37,7 +37,7 @@ No npm dependencies: Pi supplies the extension host packages.
 As a Pi package from git — **pin the release tag**:
 
 ```sh
-pi install git:github.com/RickyHolland/pi-rcompact@v1.1.0
+pi install git:github.com/sudo-holla/pi-rcompact@v1.1.0
 ```
 
 The tag is what the release notes name, and Pi installs that ref exactly. Without `@…`, Pi
@@ -45,7 +45,7 @@ resolves the repository's default branch, which moves as soon as a change merges
 be running a commit nobody has released. `main` is protected (CI must pass, force-push and
 deletion are blocked, released `v*` tags cannot be deleted), but pinning is still the form to
 use, because it means the copy on your machine corresponds to a reviewed release rather than
-"whatever `main` was today". Check the [releases page](https://github.com/RickyHolland/pi-rcompact/releases) for the newest tag.
+"whatever `main` was today". Check the [releases page](https://github.com/sudo-holla/pi-rcompact/releases) for the newest tag.
 
 > **`v1.1.0` is the current release, and `v1.0.4` the earliest pin that still resolves.** Tags
 > `v1.0.0`–`v1.0.3` no longer resolve, so an install pinned to one of them fails and needs
@@ -55,7 +55,7 @@ use, because it means the copy on your machine corresponds to a reviewed release
 To update later, install the newer tag — the pinned ref is what Pi re-fetches:
 
 ```sh
-pi uninstall git:github.com/RickyHolland/pi-rcompact && pi install git:github.com/RickyHolland/pi-rcompact@v1.1.0
+pi uninstall git:github.com/sudo-holla/pi-rcompact && pi install git:github.com/sudo-holla/pi-rcompact@v1.1.0
 ```
 
 Then start a new Pi session, or run `/reload` in an existing one. Pi Web needs a daemon
@@ -64,7 +64,7 @@ restart to reload extension code.
 From a clone (check out the tag, so the working tree matches a release):
 
 ```sh
-git clone --branch v1.1.0 --depth 1 https://github.com/RickyHolland/pi-rcompact
+git clone --branch v1.1.0 --depth 1 https://github.com/sudo-holla/pi-rcompact
 pi install ./pi-rcompact
 ```
 
