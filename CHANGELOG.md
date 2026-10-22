@@ -10,6 +10,23 @@ traceable, and future releases are versioned from here.
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-10-22
+
+### Changed
+- Docs-and-packaging only: this release re-publishes `main` after the repository moved to
+  [`sudo-holla/pi-rcompact`](https://github.com/sudo-holla/pi-rcompact) (PR #4), so the published
+  artifacts — tarball, README install line, and the `repository` / `bugs` / `homepage` fields in
+  `package.json` — all carry the new address. The `v1.1.0` tag predates the URL swap, so its tree
+  still records the old path; anything installed from that tag keeps working, and `pi install
+  git:github.com/sudo-holla/pi-rcompact@v1.1.1` is now the canonical line.
+
+- `version.ts` and the README install pins moved with the package version, so `/rcompact`, the
+  doctor, the request-source label and the documented `pi install` line all report `1.1.1`.
+
+### No behaviour change
+- No logic, test, workflow or capability change is included. `1.1.1` is functionally identical to
+  `1.1.0`; it exists only so the shipped tree matches the repository URL.
+
 ## [1.1.0] - 2026-10-16
 
 ### Added
